@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Windows.Speech;
 
 public static class Extensions {
 
@@ -30,5 +31,31 @@ public static class Extensions {
         }
 
         return null; 
+    }
+
+    public static bool Contains(this Array array, string key)
+    {
+        foreach(SemanticMeaning semanticMeaning in array)
+        {
+            if (semanticMeaning.key.Equals(key))
+            {
+                return true; 
+            }
+        }
+
+        return false; 
+    }
+
+    public static SemanticMeaning? SafeGet(this Array array, string key)
+    {
+        foreach (SemanticMeaning semanticMeaning in array)
+        {
+            if (semanticMeaning.key.Equals(key))
+            {
+                return semanticMeaning;
+            }
+        }
+
+        return null;
     }
 }

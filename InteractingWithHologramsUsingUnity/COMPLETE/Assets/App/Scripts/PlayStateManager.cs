@@ -18,6 +18,8 @@ public class PlayStateManager : Singleton<PlayStateManager> {
 
     #region properties and variables 
 
+    public PlayStateVoiceHandler voiceHandler; 
+
     private Interactible _currentInteractible;
 
     public Interactible CurrentInteractible
@@ -157,7 +159,7 @@ public class PlayStateManager : Singleton<PlayStateManager> {
 
     void ManipulationRecognizer_ManipulationUpdatedEvent(InteractionSourceKind source, Vector3 cumulativeDelta, Ray headRay)
     {
-        Vector3 delta = new Vector3(cumulativeDelta.x - previousCumulativeDelta.x, -1 * (cumulativeDelta.y - previousCumulativeDelta.y), cumulativeDelta.z - previousCumulativeDelta.z);         
+        Vector3 delta = new Vector3(cumulativeDelta.x - previousCumulativeDelta.x, (cumulativeDelta.y - previousCumulativeDelta.y), cumulativeDelta.z - previousCumulativeDelta.z);         
         Robot.MoveIKHandle(delta);
         previousCumulativeDelta = cumulativeDelta;
     }
@@ -187,7 +189,7 @@ public class PlayStateManager : Singleton<PlayStateManager> {
     {
         if(Mathf.Abs(CurrentInteractible.interactionAxis.x) > 0)
         {
-            Robot.Rotate(CurrentInteractible.name, CurrentInteractible.interactionAxis * normalizedOffset.y);
+            Robot.Rotate(CurrentInteractible.name, CurrentInteractible.interactionAxis * -normalizedOffset.y);
         }
         else
         {
@@ -310,7 +312,20 @@ public class PlayStateManager : Singleton<PlayStateManager> {
 
     void OnStateActiveChanged()
     {
-
+        if(SceneManager.Instance.State == SceneManager.States.Playing)
+        {
+            if(voiceHandler != null)
+            {
+                voiceHandler.StartHandler(); 
+            }
+        }
+        else
+        {
+            if (voiceHandler != null)
+            {
+                voiceHandler.StopHandler();
+            }
+        }
     }
 
     void PlayStateManager_OnCurrentInteractibleChanged()
@@ -321,7 +336,7 @@ public class PlayStateManager : Singleton<PlayStateManager> {
             return; 
         }
 
-        if(CurrentInteractible.interactionAxis.magnitude > 1f)
+        if(CurrentInteractible.interactionType == Interactible.InteractionTypes.Manipulation)
         {
             ActiveRecognizer = manipulationRecognizer;
         }

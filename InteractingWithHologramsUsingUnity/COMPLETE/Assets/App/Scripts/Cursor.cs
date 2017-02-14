@@ -143,6 +143,7 @@ public class Cursor : MonoBehaviour {
         // leave the cursor as it is if a interactible is selected 
         if (PlayStateManager.Instance.IsCurrentInteractibleSelected)
         {
+            CurrentCursor = null; 
             return; 
         }
             
