@@ -1,6 +1,0 @@
-
-env/
-CDBlendSrv/.idea/
-CDBlendSrv/copy_to_blender_addons.bat
-CDBlendSrv/client.py
-CDBlendSrv/clientserver_test.py
