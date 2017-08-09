@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintWarz", "PaintWarz.csproj", "{7ADB4723-316B-B069-6FB6-4D7D700536CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintWarz.Editor", "PaintWarz.Editor.csproj", "{E06F9F76-8813-7A86-A3C0-1F04DAB62B8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ADB4723-316B-B069-6FB6-4D7D700536CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADB4723-316B-B069-6FB6-4D7D700536CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADB4723-316B-B069-6FB6-4D7D700536CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADB4723-316B-B069-6FB6-4D7D700536CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06F9F76-8813-7A86-A3C0-1F04DAB62B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06F9F76-8813-7A86-A3C0-1F04DAB62B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06F9F76-8813-7A86-A3C0-1F04DAB62B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06F9F76-8813-7A86-A3C0-1F04DAB62B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

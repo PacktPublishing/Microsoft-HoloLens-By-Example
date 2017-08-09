@@ -1,0 +1,1493 @@
+fileFormatVersion: 2
+guid: 853af58d310e9f142af05c62b9596ec2
+timeCreated: 1499721373
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_Lower_L
+    100002: Arm_Lower_R
+    100004: Arm_Upper_L
+    100006: Arm_Upper_R
+    100008: Base
+    100010: Chest
+    100012: Foot_L
+    100014: Foot_R
+    100016: GunGeometry
+    100018: Hair_Middle_Bottom
+    100020: Hair_Middle_Top
+    100022: Hair_Side_Bottom_L
+    100024: Hair_Side_Bottom_R
+    100026: Hair_Side_Top_L
+    100028: Hair_Side_Top_R
+    100030: Hand_L
+    100032: Hand_R
+    100034: Head
+    100036: Hips
+    100038: Leg_Lower_L
+    100040: Leg_Lower_R
+    100042: Leg_Upper_L
+    100044: Leg_Upper_R
+    100046: Neck
+    100048: Player
+    100050: //RootNode
+    100052: PlayerGeometry
+    100054: Shoulder_L
+    100056: Shoulder_R
+    100058: Spline
+    400000: Arm_Lower_L
+    400002: Arm_Lower_R
+    400004: Arm_Upper_L
+    400006: Arm_Upper_R
+    400008: Base
+    400010: Chest
+    400012: Foot_L
+    400014: Foot_R
+    400016: GunGeometry
+    400018: Hair_Middle_Bottom
+    400020: Hair_Middle_Top
+    400022: Hair_Side_Bottom_L
+    400024: Hair_Side_Bottom_R
+    400026: Hair_Side_Top_L
+    400028: Hair_Side_Top_R
+    400030: Hand_L
+    400032: Hand_R
+    400034: Head
+    400036: Hips
+    400038: Leg_Lower_L
+    400040: Leg_Lower_R
+    400042: Leg_Upper_L
+    400044: Leg_Upper_R
+    400046: Neck
+    400048: Player
+    400050: //RootNode
+    400052: PlayerGeometry
+    400054: Shoulder_L
+    400056: Shoulder_R
+    400058: Spline
+    4300000: GunGeometry
+    4300002: PlayerGeometry
+    7400000: Default Take
+    7400002: CheckEnvironment
+    7400004: GameOver
+    7400006: Hit
+    7400008: Idle
+    7400010: IdleOld
+    7400012: Shooting
+    7400014: TurnLeft
+    7400016: TurnRight
+    7400018: Victory
+    7400020: Walking
+    9500000: //RootNode
+    13700000: GunGeometry
+    13700002: PlayerGeometry
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'CheckEnvironment' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Arm_Upper_L' has scale animation that will
+      be discarded.\n\t'Arm_Lower_L' has scale animation that will be discarded.\n\t'Arm_Upper_R'
+      has scale animation that will be discarded.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\nClip 'GameOver' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Arm_Upper_L' has scale animation that will
+      be discarded.\n\t'Arm_Lower_L' has scale animation that will be discarded.\n\t'Arm_Upper_R'
+      has scale animation that will be discarded.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\nClip 'Hit' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Hips' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Arm_Upper_L' has scale animation that
+      will be discarded.\n\t'Arm_Lower_L' has scale animation that will be discarded.\n\t'Arm_Upper_R'
+      has scale animation that will be discarded.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\t'Leg_Upper_L' has scale animation that will be discarded.\n\t'Leg_Lower_L'
+      has scale animation that will be discarded.\n\t'Leg_Upper_R' has scale animation
+      that will be discarded.\n\t'Leg_Lower_R' has scale animation that will be discarded.\n\nClip
+      'Idle' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Arm_Lower_R'
+      has scale animation that will be discarded.\n\nClip 'IdleOld' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\nClip 'TurnLeft' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Arm_Upper_L' has scale animation that will
+      be discarded.\n\t'Arm_Lower_L' has scale animation that will be discarded.\n\t'Arm_Upper_R'
+      has scale animation that will be discarded.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\nClip 'TurnRight' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Arm_Upper_L' has scale animation that will
+      be discarded.\n\t'Arm_Lower_L' has scale animation that will be discarded.\n\t'Arm_Upper_R'
+      has scale animation that will be discarded.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\nClip 'Victory' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Arm_Upper_L' has scale animation that will
+      be discarded.\n\t'Arm_Lower_L' has scale animation that will be discarded.\n\t'Arm_Upper_R'
+      has scale animation that will be discarded.\n\t'Arm_Lower_R' has scale animation
+      that will be discarded.\n\nClip 'Walking' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Hips' has translation animation that will be
+      discarded.\n\t'Hips' is inbetween humanoid transforms and has rotation animation
+      that will be discarded.\n\t'Arm_Upper_L' has scale animation that will be discarded.\n\t'Arm_Lower_L'
+      has scale animation that will be discarded.\n\t'Arm_Upper_R' has scale animation
+      that will be discarded.\n\t'Arm_Lower_R' has scale animation that will be discarded.\n\t'Leg_Upper_L'
+      has scale animation that will be discarded.\n\t'Leg_Lower_L' has scale animation
+      that will be discarded.\n\t'Leg_Upper_R' has scale animation that will be discarded.\n\t'Leg_Lower_R'
+      has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: CheckEnvironment
+      takeName: CheckEnvironment
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GameOver
+      takeName: GameOver
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hit
+      takeName: Hit
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdleOld
+      takeName: IdleOld
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shooting
+      takeName: Shooting
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TurnLeft
+      takeName: TurnLeft
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TurnRight
+      takeName: TurnRight
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Victory
+      takeName: Victory
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking
+      takeName: Walking
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GunGeometry
+        weight: 0
+      - path: Player
+        weight: 1
+      - path: Player/Base
+        weight: 1
+      - path: Player/Base/Hips
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Player/Base/Hips/Spline
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Middle_Bottom/Hair_Middle_Top
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_L/Hair_Side_Top_L
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Neck/Head/Hair_Side_Bottom_R/Hair_Side_Top_R
+        weight: 0
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_L/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Player/Base/Hips/Spline/Chest/Shoulder_R/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: PlayerGeometry
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.05
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Base
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Upper_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Upper_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Lower_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Lower_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spline
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Upper_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Upper_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Lower_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Lower_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hair_Side_Bottom_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hair_Side_Bottom_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hair_Middle_Bottom
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: player(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GunGeometry
+      parentName: player(Clone)
+      position: {x: 0.031606477, y: -0.013768772, z: 0.085068405}
+      rotation: {x: 0.61647177, y: -0.019936219, z: -0.05107661, w: 0.78546566}
+      scale: {x: 0.99999934, y: 0.99918526, z: 0.99994785}
+    - name: Player
+      parentName: player(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Base
+      parentName: Player
+      position: {x: -0, y: -0.0022985637, z: 0.0005006492}
+      rotation: {x: 0.70709586, y: 0.70709586, z: 0.003928208, w: -0.0039282087}
+      scale: {x: 0.99999994, y: 1, z: 0.999133}
+    - name: Hips
+      parentName: Base
+      position: {x: 0.000942171, y: -7.1131954e-11, z: -0.09870401}
+      rotation: {x: 0.012206591, y: -0.72228634, z: -0.012473421, w: 0.6913739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spline
+      parentName: Hips
+      position: {x: -0.023013873, y: 0.000000001821388, z: 5.821676e-10}
+      rotation: {x: 0.9996702, y: -0.00000007663972, z: -0.025680376, w: -0.00000013499508}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Chest
+      parentName: Spline
+      position: {x: -0.020014402, y: 0.0000000012518483, z: 9.422365e-11}
+      rotation: {x: -0.00000015659585, y: -0.083381355, z: 0.0000000023348479, w: 0.9965177}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Neck
+      parentName: Chest
+      position: {x: -0.022355594, y: 0.0000000020284034, z: 0.000000002105662}
+      rotation: {x: 0.00000014843405, y: -0.03365236, z: -0.0000000017620525, w: 0.99943364}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.011242557, y: 0.0000000017611704, z: 0.000000001321314}
+      rotation: {x: -0.000000004764153, y: -0.056128472, z: 0.0000000057662923, w: 0.9984236}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Hair_Middle_Bottom
+      parentName: Head
+      position: {x: -0.08348543, y: 0.0000000064932606, z: -0.00000000752043}
+      rotation: {x: -0.0000001253898, y: 0.27908197, z: 0.0000000020669872, w: 0.9602673}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Hair_Middle_Top
+      parentName: Hair_Middle_Bottom
+      position: {x: -0.028010983, y: 0.0000000029643956, z: -0.0000000052212275}
+      rotation: {x: 0.00000013454259, y: 0.25423095, z: 0.000000007733504, w: 0.96714354}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Hair_Side_Bottom_L
+      parentName: Head
+      position: {x: -0.07570992, y: 0.011725987, z: 0.0010445099}
+      rotation: {x: 0.2963005, y: 0.30456874, z: -0.4496709, w: 0.7856462}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: Hair_Side_Top_L
+      parentName: Hair_Side_Bottom_L
+      position: {x: -0.04267317, y: 0.0000000026077032, z: 0.000000002514571}
+      rotation: {x: -0.48522645, y: 0.10711627, z: 0.13024156, w: 0.8579735}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: Hair_Side_Bottom_R
+      parentName: Head
+      position: {x: -0.07570993, y: -0.011725974, z: 0.0010445145}
+      rotation: {x: 0.47595137, y: 0.54306763, z: 0.006598559, w: 0.6917401}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Hair_Side_Top_R
+      parentName: Hair_Side_Bottom_R
+      position: {x: -0.042673167, y: 0.000000007450581, z: 0.0000000018626451}
+      rotation: {x: -0.4384785, y: -0.04378049, z: -0.16284963, w: 0.88277966}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Shoulder_L
+      parentName: Chest
+      position: {x: -0.014747183, y: 0.006079825, z: 0.00047945953}
+      rotation: {x: 0.5182936, y: -0.45594, z: -0.52082413, w: 0.50222766}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999994}
+    - name: Arm_Upper_L
+      parentName: Shoulder_L
+      position: {x: -0.018971592, y: -5.5879357e-10, z: -0.000000011455268}
+      rotation: {x: 0.6527568, y: -0.012667692, z: 0.064056344, w: 0.7547483}
+      scale: {x: 1.0008703, y: 1.0000309, z: 1.000027}
+    - name: Arm_Lower_L
+      parentName: Arm_Upper_L
+      position: {x: -0.036960777, y: 0.0000000044703485, z: -0.000000008940697}
+      rotation: {x: 0.032632828, y: 0.024886917, z: -0.0025257734, w: 0.9991543}
+      scale: {x: 0.9999075, y: 0.999998, z: 0.9997244}
+    - name: Hand_L
+      parentName: Arm_Lower_L
+      position: {x: -0.03175417, y: 0.00000000493601, z: 0.000000005029142}
+      rotation: {x: 0.03506203, y: 0.038167387, z: 0.1356245, w: 0.98940384}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Shoulder_R
+      parentName: Chest
+      position: {x: -0.014747173, y: -0.006079823, z: 0.00047945647}
+      rotation: {x: 0.7015552, y: 0.6572898, z: -0.21704625, w: -0.16935582}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.99999994}
+    - name: Arm_Upper_R
+      parentName: Shoulder_R
+      position: {x: -0.018971598, y: -0.0000000059604646, z: 0.000000012479723}
+      rotation: {x: -0.27712405, y: 0.03582426, z: -0.022581542, w: 0.9599005}
+      scale: {x: 1.000269, y: 1.0000243, z: 0.9999578}
+    - name: Arm_Lower_R
+      parentName: Arm_Upper_R
+      position: {x: -0.03696079, y: -0.0000000035390257, z: 0.000000011920929}
+      rotation: {x: 0.18215725, y: 0.0046353256, z: 0.008412101, w: 0.9832225}
+      scale: {x: 1.0003976, y: 0.9998373, z: 1.0003035}
+    - name: Hand_R
+      parentName: Arm_Lower_R
+      position: {x: -0.03175417, y: -0.000000002514571, z: 0.000000008754433}
+      rotation: {x: 0.02184096, y: 0.059214443, z: 0.060263444, w: 0.99618524}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Leg_Upper_L
+      parentName: Hips
+      position: {x: -0.0075676152, y: -0.009379862, z: -0.0016300207}
+      rotation: {x: 0.08210537, y: -0.112513036, z: 0.98709077, w: 0.07906545}
+      scale: {x: 1.0004896, y: 1.000004, z: 0.99999326}
+    - name: Leg_Lower_L
+      parentName: Leg_Upper_L
+      position: {x: -0.05478384, y: 0.0000000052154063, z: 0.000000011175871}
+      rotation: {x: 0.06372028, y: -0.16104198, z: 0.01517716, w: 0.98477155}
+      scale: {x: 1.0001396, y: 0.9999808, z: 0.99949205}
+    - name: Foot_L
+      parentName: Leg_Lower_L
+      position: {x: -0.04990981, y: 0.000000006519258, z: 3.7252904e-10}
+      rotation: {x: -0.0050211474, y: 0.55757946, z: 0.031233262, w: 0.82952064}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Leg_Upper_R
+      parentName: Hips
+      position: {x: -0.0075676143, y: 0.0093798665, z: -0.0016300213}
+      rotation: {x: -0.08645613, y: -0.1482199, z: 0.9814114, w: -0.08595253}
+      scale: {x: 1.0005848, y: 1.0000517, z: 1.0001299}
+    - name: Leg_Lower_R
+      parentName: Leg_Upper_R
+      position: {x: -0.05478384, y: 0.0000000026077032, z: -0.0000000085681675}
+      rotation: {x: 0.0074569844, y: -0.3069195, z: -0.102662854, w: 0.9461528}
+      scale: {x: 1.0000091, y: 1.000074, z: 0.99994195}
+    - name: Foot_R
+      parentName: Leg_Lower_R
+      position: {x: -0.04990981, y: 0.0000000080093745, z: 0.0000000011175871}
+      rotation: {x: 0.12414172, y: 0.765864, z: 0.10855141, w: 0.6214964}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: PlayerGeometry
+      parentName: player(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.49
+    foreArmTwist: 0.5
+    upperLegTwist: 0.53
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.04
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
