@@ -1,0 +1,1 @@
+D:\Dropbox\jn - projects\Hololens by example\Experimental_Development\FaceRecognition\FaceTag\FaceTag\FaceTag.csproj;x86

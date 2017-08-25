@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceTag", "FaceTag\FaceTag.csproj", "{C05638AE-C8FA-4D62-8FAA-FC23000A937F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05638AE-C8FA-4D62-8FAA-FC23000A937F}.Debug|x86.ActiveCfg = Debug|x86
+		{C05638AE-C8FA-4D62-8FAA-FC23000A937F}.Debug|x86.Build.0 = Debug|x86
+		{C05638AE-C8FA-4D62-8FAA-FC23000A937F}.Debug|x86.Deploy.0 = Debug|x86
+		{C05638AE-C8FA-4D62-8FAA-FC23000A937F}.Release|x86.ActiveCfg = Release|x86
+		{C05638AE-C8FA-4D62-8FAA-FC23000A937F}.Release|x86.Build.0 = Release|x86
+		{C05638AE-C8FA-4D62-8FAA-FC23000A937F}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

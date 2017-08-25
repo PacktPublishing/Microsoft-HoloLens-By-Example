@@ -1,0 +1,26 @@
+{
+    "group_id": "hololens_by_example",
+    "persons": [
+        {
+            "name": "danielle",
+            "person_id": "d64df801-136f-4bc0-924b-5f4c7152a497",
+            "face_ids": [
+                "1f1b19b7-249b-4b95-be59-d62f8a2fd487",
+                "b9dc9de8-a0d1-4c88-9b06-b47d2d5bab7c",
+                "b2e1ba6f-d9b1-4964-9922-b0c96c1d679e",
+                "7923bc5c-4c76-4ab3-931e-26287e8f8f84",
+                "0b1ae7c1-d949-4298-9594-d340ef6aaaa4",
+                "19a1a871-b02c-4548-b142-8e932e9c85da"
+            ]
+        },
+        {
+            "name": "josh",
+            "person_id": "830af8a0-5a76-47b9-8839-840794dbabc0",
+            "face_ids": [
+                "4ccb80ba-41ec-4556-85cc-1999527a5a7a",
+                "c7ac1391-63bf-4772-9891-4a7730539e9e",
+                "485ffcc9-21a3-4aea-a5c4-c5c0ddd849ce"
+            ]
+        }
+    ]
+}
