@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" 
+         xml:lang="en-US" 
+         mode="voice" 
+         root="Entry"
+         xmlns="http://www.w3.org/2001/06/grammar"
+         xmlns:sapi="http://schemas.microsoft.com/Speech/2002/06/SRGSExtensions"
+         tag-format="semantics/1.0">
+
+  <rule id="Entry" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#RememberLocation"/>
+      </item>
+      <item>
+        <ruleref uri="#FindLocation"/>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="RememberLocation" scope="public">
+    <example> remember keys </example>
+    <example> tag keys </example>
+
+    <item repeat="0-1"> please </item>
+
+    <one-of>
+      <item> remember </item>
+      <item> tag </item>
+      <item> save </item>
+      <item> save location of </item>
+    </one-of>
+
+    <item repeat="0-1"> my </item>
+
+    <!--<item>
+      <ruleref special="GARBAGE"/>
+      <tag> out = rules.latest(); </tag>
+    </item>-->
+
+    <item>
+      <ruleref uri="#Objects"/>
+      <tag> out.Object = rules.latest(); </tag>
+      <!--<tag> out.Object = rules.Objects; </tag>-->
+    </item>
+    
+  </rule>  
+
+  <rule id="FindLocation" scope="public">
+    
+    <item repeat="0-1"> please </item>
+
+    <one-of>
+      <item> find </item>
+      <item> locate </item>
+      <item> show me </item>
+      <item> where is </item>
+      <item> where are </item>
+      <item> where did i put </item>
+    </one-of>
+
+    <item repeat="0-1"> my </item>
+
+    <item>
+      <ruleref uri="#Objects"/>
+      <tag> out.Object = rules.latest(); </tag>
+    </item>
+    
+  </rule>
+
+  <rule id="Objects">
+    <one-of>
+      <item>hat<tag>out = "hat"; </tag> </item>
+      <item>bike<tag>out = "bike"; </tag> </item>
+      <item>can<tag>out = "can"; </tag> </item>
+      <item>drink<tag>out = "drink"; </tag></item>
+      <item>wallet<tag>out = "wallet"; </tag></item>
+      <item>keys<tag>out = "keys"; </tag></item>
+      <item>key<tag>out = "keys"; </tag></item>
+      <item>pen<tag>out = "pen"; </tag></item>
+      <item>cat<tag>out = "cat"; </tag></item>
+      <item>jacket<tag>out = "jacket"; </tag></item>
+      <item>coat<tag>out = "coat"; </tag></item>
+      <item>shoe<tag>out = "shoes"; </tag></item>
+      <item>shoes<tag>out = "shoes"; </tag></item>
+      <item>bag<tag>out = "bag"; </tag></item>
+      <item>umbrella<tag>out = "umbrella"; </tag></item>
+      <item>hammer<tag>out = "hammer"; </tag></item>
+      <item>stereo<tag>out = "stereo"; </tag></item>
+    </one-of>
+  </rule>
+  
+</grammar>

@@ -1,0 +1,1 @@
+D:\Dropbox\jn - projects\Hololens by example\Microsoft-HoloLens-By-Example\Chapter3\Complete\AssistantItemFinder\AssistantItemFinder.csproj;x86
