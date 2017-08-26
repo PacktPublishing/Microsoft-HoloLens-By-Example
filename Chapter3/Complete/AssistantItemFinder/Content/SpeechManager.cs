@@ -29,9 +29,9 @@ namespace AssistantItemFinder.Content
 
         string[] rememberVariants = { "remember", "save", "tag" };
 
-        string[] rememberTags = { "hat", "keys", "wallet", "umbrella", "coat", "hammer", "jacket", "shoes" }; 
+        string[] rememberTags = { "hat", "keys", "wallet", "umbrella", "coat", "hammer", "jacket", "shoes", "bike" };
 
-        HashSet<string> tags = new HashSet<string>(); 
+        HashSet<string> tags = new HashSet<string>();
 
         SpeechRecognizer speechRecognizer;
 
@@ -39,7 +39,7 @@ namespace AssistantItemFinder.Content
 
         public SpeechManager()
         {
-            
+
         }
 
         #region factory/(de-)initilisation methods 
@@ -56,11 +56,11 @@ namespace AssistantItemFinder.Content
             {
                 await speechManager.Start();
                 return speechManager;
-            } 
+            }
             catch
             {
-                return null; 
-            }                       
+                return null;
+            }
         }
 
         List<SpeechRecognitionListConstraint> GetConstraints()
@@ -80,12 +80,12 @@ namespace AssistantItemFinder.Content
 
                 if (utterances.Count > 0)
                 {
-                    var rememberTag = $"remember_{tag.ToLower()}";
+                    var rememberTag = $"rememberLocation_{tag.ToLower()}";
                     constraints.Add(new SpeechRecognitionListConstraint(utterances, rememberTag));
                 }
             }
 
-            foreach (var tag in tags)
+            foreach (var tag in rememberTags)
             {
                 utterances.Clear();
 
@@ -96,7 +96,7 @@ namespace AssistantItemFinder.Content
 
                 if (utterances.Count > 0)
                 {
-                    var findTag = $"find_{tag.ToLower()}";
+                    var findTag = $"findLocation_{tag.ToLower()}";
                     constraints.Add(new SpeechRecognitionListConstraint(utterances, findTag));
                 }
             }
@@ -124,7 +124,7 @@ namespace AssistantItemFinder.Content
         /// <returns></returns>
         public async Task Start()
         {
-            Stop();            
+            Stop();
 
             speechRecognizer = new SpeechRecognizer();
 
@@ -132,19 +132,19 @@ namespace AssistantItemFinder.Content
             // visual feedback to help the user understand whether they're being heard.
             speechRecognizer.StateChanged += SpeechRecognizer_StateChanged;
 
-            var constraints = GetConstraints(); 
+            var constraints = GetConstraints();
 
-            foreach(var constraint in constraints)
+            foreach (var constraint in constraints)
             {
                 speechRecognizer.Constraints.Add(constraint);
-            }            
+            }
 
             SpeechRecognitionCompilationResult compilationResult = await speechRecognizer.CompileConstraintsAsync();
 
             if (compilationResult.Status != SpeechRecognitionResultStatus.Success)
             {
                 Debug.WriteLine("Unable to compile grammar.");
-                throw new Exception("Unable to compile grammar."); 
+                throw new Exception("Unable to compile grammar.");
             }
             else
             {
@@ -197,7 +197,7 @@ namespace AssistantItemFinder.Content
         /// <param name="args">The state of the recognizer</param>
         private void ContinuousRecognitionSession_Completed(SpeechContinuousRecognitionSession sender, SpeechContinuousRecognitionCompletedEventArgs args)
         {
-            
+
         }
 
         /// <summary>
@@ -223,6 +223,7 @@ namespace AssistantItemFinder.Content
                 tag = args.Result.Constraint.Tag;
             }
 
+            Debug.WriteLine($"ContinuousRecognitionSession_ResultGenerated {text} {tag} {args.Result.Confidence.ToString()}");
 
             // Developers may decide to use per-phrase confidence levels in order to tune the behavior of their 
             // grammar based on testing.

@@ -29,7 +29,7 @@ namespace AssistantItemFinder.Content
 
         string[] rememberVariants = { "remember", "save", "tag" };
 
-        string[] rememberTags = { "hat", "keys", "wallet", "umbrella", "coat", "hammer", "jacket", "shoes" };
+        string[] rememberTags = { "hat", "keys", "wallet", "umbrella", "coat", "hammer", "jacket", "shoes", "bike" };
 
         HashSet<string> tags = new HashSet<string>();
 
@@ -80,12 +80,12 @@ namespace AssistantItemFinder.Content
 
                 if (utterances.Count > 0)
                 {
-                    var rememberTag = $"remember_{tag.ToLower()}";
+                    var rememberTag = $"rememberLocation_{tag.ToLower()}";
                     constraints.Add(new SpeechRecognitionListConstraint(utterances, rememberTag));
                 }
             }
 
-            foreach (var tag in tags)
+            foreach (var tag in rememberTags)
             {
                 utterances.Clear();
 
@@ -96,7 +96,7 @@ namespace AssistantItemFinder.Content
 
                 if (utterances.Count > 0)
                 {
-                    var findTag = $"find_{tag.ToLower()}";
+                    var findTag = $"findLocation_{tag.ToLower()}";
                     constraints.Add(new SpeechRecognitionListConstraint(utterances, findTag));
                 }
             }
@@ -223,6 +223,7 @@ namespace AssistantItemFinder.Content
                 tag = args.Result.Constraint.Tag;
             }
 
+            Debug.WriteLine($"ContinuousRecognitionSession_ResultGenerated {text} {tag} {args.Result.Confidence.ToString()}");
 
             // Developers may decide to use per-phrase confidence levels in order to tune the behavior of their 
             // grammar based on testing.
