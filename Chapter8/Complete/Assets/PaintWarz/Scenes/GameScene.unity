@@ -410,6 +410,11 @@ Prefab:
       propertyPath: tapIndicator
       value: 
       objectReference: {fileID: 535256803}
+    - target: {fileID: 114618472737877660, guid: 14cbeb847e352484593176b923e6844f,
+        type: 2}
+      propertyPath: mode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 14cbeb847e352484593176b923e6844f, type: 2}
   m_IsPrefabParent: 0
