@@ -23,3 +23,6 @@ Collaboration with Hololens using Unity, In this chapter we walk through buildin
 
 ## Chapter 8 
 Developing a multiplayer game using Unity, Our final example is building a fun multiplayer game, inspired by the classic Cannon Fodder, where the user will navigate their team around the environment to eliminate their opponent.
+
+## HoloToolkit-Unity  
+Snapshot/Version of the MixedRealityToolkit-Unity (formally HoloToolkit-Unity) project from Microsoft used for this book (added here for convenience), original source from https://github.com/Microsoft/MixedRealityToolkit-Unity. 
