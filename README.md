@@ -12,11 +12,11 @@ Chapter 3, Assistant item finder using DirectX, In this chapter we build on top 
 ## Chapter 4 
 Building Paper Trash Ball in Unity, This chapter walks the reader through the development of a popular Smartphone game Paper Toss, but unlike the traditional game, the setting will be the user’s physical environment.
 
-##Chapter 5 
+## Chapter 5 
 Building Paper Trash Ball in Unity using HoloToolkit, This chapter is a continuation of the previous but looks at re-implementing the project using HoloToolkit, collection of scripts and components intended to accelerate development of Hololens application development, and extends it by adding an holographic user interface.
 
 ## Chapter 6 
-Interacting with Holograms using Unity, In this chapter we development a simple visualiser for Blender3D that will place the selected 3D objects, from the 3D package, into the real world. After the visualiser is built, the chapter will introduce the user to Voice User Interfaces and walk the reader through extending the application to allow the user to manipulate the object using their voice.
+Interacting with Holograms using Unity, In this chapter we explore various ways the user can interact with holograms. We start by discussing gestures, along with allowing the user to **touch** holograms, then introduce the reader to Voice User Interfaces, walking the reader through extending the application to allow the user to manipulate the hologram using their voice.
 
 ## Chapter 7 
 Collaboration with Hololens using Unity, In this chapter we walk through building a project where the hololens is shared across multiple devices. The example is based on a collaborative design review where-by a design (3D model) is streamed to multiple Hololens devices where it is projected into the real-world allowing for richer engagement and collaboration.
