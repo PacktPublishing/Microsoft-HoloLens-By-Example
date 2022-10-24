@@ -26,3 +26,7 @@ Developing a multiplayer game using Unity, Our final example is building a fun m
 
 ## HoloToolkit-Unity  
 Snapshot/Version of the MixedRealityToolkit-Unity (formally HoloToolkit-Unity) project from Microsoft used for this book (added here for convenience), original source from https://github.com/Microsoft/MixedRealityToolkit-Unity. 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781787126268">https://packt.link/free-ebook/9781787126268 </a> </p>
